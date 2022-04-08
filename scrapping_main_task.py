@@ -108,7 +108,7 @@ for i in range(len(rows)):
 
     print('Status: Saving Product: ' + str(i) + "\n")
     json_dump = json.dumps(product_description)
-    with open('/Users/poonamdhankher/Downloads/test/amazon_web_scrapping/amazon_products_data2.json', 'a+') as f: 
+    with open('/Users/poonamdhankher/Downloads/test/amazon_web_scrapping/amazon_products_data.json', 'a+') as f: 
         f.write(json_dump)
         f.write(",\n")
         f.close()
