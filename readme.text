@@ -1,0 +1,23 @@
+1. import requests
+
+2. read csv file and print data of csv file into array
+
+3. using for loop for making url using country code and Asin
+
+4. time stamp for calculating time after each round of hundred URLs
+
+5. Amazon is blocking so use brouser agent Header 
+
+6. 200 statuscheck for checking that web page exist or not
+
+7. make a dictionary naming as product description and add all data as product title, product image, product price, product details in dictionary
+
+8. use beautiful soup to parse html page
+
+9. inspect product title to find class of product title from span 
+
+10. if produc title or products details are not exist in their specific html tag, then simply skipping them to avoid content not found errors
+similarly for product image, price and details
+
+11. dump dictionary in json file
+
